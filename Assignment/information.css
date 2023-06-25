@@ -1,0 +1,125 @@
+
+
+.container{
+    background-color: #656ac6;
+    /* border : 4px solid black; */
+    padding: 50px 50px;
+  
+ 
+}
+
+.frame{
+    /* padding: 0 20px; */
+    /* border : 4px solid blue; */
+    background-image: url('info.jpg') ;
+    background-repeat: no-repeat 0 0;
+    /* no-repeat 0 0; */
+    padding:60px 0;
+    background-size: cover;
+}
+
+.title{
+    background-color:white;
+    opacity: 0.9;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+p.lead{
+    color: white;
+ background-color:#686de0; ;
+ opacity: 0.7;
+    padding: 10px;
+    width:40%;
+    font-size: larger;
+    margin-left: 59px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:60px 0;
+background-color: rgb(249, 246, 249);
+color: #656ac6;
+font-size: larger;
+font-weight: bold;
+}
+
+/* .i1{
+
+    border : 4px solid blue;
+   
+   
+}
+
+.i2{
+  
+    border : 4px solid yellow;
+} */
+
+
+.info h3{
+text-align: center;
+}
+
+#u1 li {
+    margin-left: 40px;
+}
+
+
+#u2 li {
+    margin-left: 130px;
+}
+
+
+
+
+.info i.fa1{
+    /* text-align: center; */
+ margin-left: 200px;
+    color: #656ac6 ;
+    font-size: 70px;
+    margin-bottom: 15px;
+    }
+    
+
+    
+    .info i.fa2{
+        /* text-align: center; */
+     margin-left: 220px;
+        color: #656ac6 ;
+        font-size: 70px;
+        margin-bottom: 15px;
+        }
+        
+
+        .endbtn{
+            display: flex;
+            justify-content: end;
+        }
+
+        .btn {
+            /* border: none; */
+            /* background-color: inherit; */
+            padding: 16px 40px;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+          }
+
+          .infobtn{
+        margin-top: 10px;
+            background-color:#30336b;
+            border-radius: 2px;
+            border: 0.2px white solid;
+            }
+            
+            
+            .btn a{
+                text-decoration: none;
+                color: #fff;
+            }        
+
+            .infobtn:hover {background: #686de0;}
